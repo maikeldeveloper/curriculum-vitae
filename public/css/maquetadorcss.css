@@ -1,0 +1,17 @@
+/* CSS Document */
+
+#issuu {outline: none; margin:0px 0 0 0;
+
+}
+#issuu:hover, #issuu:active, #issuu:focus {
+	outline: none;
+
+}
+
+a {outline: none;
+}
+a:hover, a:active, a:focus {
+	outline: none;
+
+}
+

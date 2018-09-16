@@ -1,0 +1,269 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Mystery+Quest);
+
+
+
+html{
+	/**/background:url(../imagenes/fondo_page.jpg);
+	background-repeat: no-repeat; 
+	background-position: 50% 0%; 
+	background-color: transparent;  
+	
+}
+
+
+
+body{
+	margin: 0px auto 0px auto;
+	width:930px;
+	height:1000px;
+	padding:0 0px 0 0px;
+	background:url(../imagenes/fondo_body.jpg);
+	/*background-repeat: no-repeat; 
+	background:#303;*/
+}
+
+#logo_container{
+	width:910px;
+	float:left;
+	height:250px;
+	padding:0 10px 0 10px;
+	/*background-color: #F00;*/
+	
+	
+}
+
+#logo{
+	float:left;
+	margin-top:137px;
+	width:229px;
+	height:103px;
+	background-image:url(../imagenes/my_portfolio.png);
+}
+
+/*
+
+-----------------------> MENU <-----------------------
+ */
+#menu{
+	position:relative;
+	float:left;
+	width:710px;
+	font-family:'Mystery Quest', cursive;
+	font-size: 18px;
+	padding:0 210px 0 10px;/**/
+	margin-top:-1px;
+}
+
+/*
+
+---------------------> CSS MENU LINE MAGICA <--------------------
+*/
+
+/* Clearfix */
+.nav-wrap { 
+	margin: 0px auto;  
+	border-top: 2px solid #3c2d0d; 
+	border-bottom:2px solid #3c2d0d; 
+	
+	
+}
+
+/* Clearfix */
+.group:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+/* Example One */
+#example-one { 
+	margin: 0 auto; 
+	list-style: none; 
+	position: relative; 
+	width:710px; 
+	margin-left:-35px;/**/
+}
+#example-one li { 
+	display: inline-block;
+	float:left;
+}
+#example-one a { 
+	color: #3c2d0d;  
+	float: left;
+	padding: 8px 14px 2px 14px;
+	text-decoration: none;
+}
+
+#example-one a:hover { 
+	text-shadow: 2px 2px 3px #999;  
+}
+
+#example-one li a:active { position: relative; top: 1px; }
+
+#magic-line { 
+	position: absolute;
+	bottom: -2px; 
+	left: 0; 
+	width: 100px; 
+	height: 2px; 
+	background: #FC0; 
+}
+
+.current_page_item a { 
+	color: #900 !important; 
+	text-shadow: 2px 2px 3px #999;/* */
+}
+.ie6 #example-one li, .ie7 #example-one li { 
+	display: inline; 
+}
+.ie6 #magic-line {
+	bottom: -3px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+------------------------> OJOS <---------------------------------- 
+*/
+#eye_container{
+	width:910px;
+	height:65px;
+	float:left;
+	padding:0 10px 0 10px;
+	/*background:#CF3*/;
+	
+	
+}
+
+#ojo_neurona_left{
+	float:left;
+	margin:28px 0 0 120px;
+	width: 42px; 
+	height: 42px; 
+	/*background: url('../imagenes/white.png') center center no-repeat;*/  
+	
+}
+
+#ojo_neurona_right{
+	float:right;
+	margin:1px 12px 0 0;
+	width: 42px; 
+	height: 42px; 
+	/*background: url('../imagenes/white.png') center center no-repeat;*/  
+
+}
+/*
+---------------------> CONTENIDO <----------------------------
+*/
+#contenido{
+	float:left;
+	width:910px;
+	height:520px;
+	padding:0 10px 0 10px;
+	/*background:#666;*/
+}
+#posibleContenido{
+	width:650px;
+	height: 520px;
+	padding:0px 130px;
+	/*background:#036;*/
+	/*color:#F00;*/
+	word-wrap: break-word;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:16px; 
+	color: #3c2d0d;
+	line-height:30px;
+	}
+h1{
+    font-family:'Mystery Quest', cursive;
+    color: #900;
+    font-style:normal;
+    margin-top: 40px;
+}
+	
+
+/*
+-----------------------> FOOTER<------------------
+*/
+
+#footer{
+	float:left;
+	width:910px;
+	height:50px;
+	padding:0 10px 0 10px;
+	/*background-color:#3F0;*/
+}
+
+#neurona_contacta{
+	float:right;
+	width:123px;
+	height:137px;
+	margin: -137px 10px 0 0;
+	/*background:#300;*/
+	background:url(../imagenes/contact_button.png) no-repeat center top;
+}
+
+
+#neurona_contacta:hover{
+	float:right;
+	width:123px;
+	height:137px;
+	margin: -137px 10px 0 0;
+	background:url(../imagenes/contact_button.png) no-repeat center bottom;
+	
+	/*background:#3C0;*/}
+	
+	
+/*-----------------------> DEVELOPER <------------------*/
+
+#paginaWeb{
+    float:left;
+    margin:30px 0 0 15px;
+    width:200px;
+}
+	
+#paginaWeb p{
+    text-align:center;
+    font-family: 'Mystery Quest', cursive;
+    font-size:18px;
+    color:#3c2d0d;
+    margin: 10px 0 0px;
+}
+	
+	
+#paginaWeb img{
+    -moz-box-shadow: 0px 1px 5px 0px #3c2d0d;
+    box-shadow: 0px 1px 5px 0px #3c2d0d;
+	
+	
+}
+	
+#paginaWeb img:hover{
+    filter:alpha(opacity=70);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    -khtml-opacity: 0.5;
+		
+}
+
+#paginaWeb img:active { position: relative; top: 1px; }
+
+
+/**/
+
+#publi img{
+    -moz-box-shadow: 0px 1px 5px 0px #3c2d0d;
+    box-shadow: 0px 1px 5px 0px #3c2d0d;
+    margin:20px 0 0 15px;
+}
+
+
+	

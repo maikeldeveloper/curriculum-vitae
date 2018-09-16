@@ -1,0 +1,27 @@
+
+#wrapper{
+	width:650px;
+	margin:0px auto;
+}
+			
+/* Give the header a height and a background image */
+#header{
+	height:490px; 
+	background:  url(../imagenes/background.jpg) repeat-y scroll left top;
+	background-color:#666;
+}
+			
+/* Create a Shadow Overlay */ 
+#header div{
+	width:650px;
+	height:490px;
+	background: transparent url(../imagenes/overlay.png) no-repeat scroll left top;
+}
+			
+/* Vertically position header text and style it*/
+#header h1{
+	
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color:white;
+}
+			

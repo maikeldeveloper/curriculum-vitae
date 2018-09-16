@@ -1,0 +1,50 @@
+ /*
+	UTILITY STYLES
+				  				  
+					  				  
+.floatLeft 									{ float: left; margin-right: 0px;}
+.floatRight									{ float: right; }
+.clear 										{ clear: both; }
+a											{ outline: none; }
+
+*/
+/*
+	PAGE STRUCTURE
+*/
+#page-wrap 									{ width: 540px; margin: 0px auto; position: relative; min-height: 400px; background-color:#3c2d0d; padding:2px 2px 83px 9px;-moz-box-shadow: 0px 1px 5px 0px #3c2d0d;
+    box-shadow: 0px 1px 5px 0px #3c2d0d;}
+
+
+/*
+	TYPOGRAPHY
+*/
+ul											{ list-style: square inside; }
+/*a, a:visited								{ color: #729dff; text-decoration: none; }
+a:hover, a:active							{ color: white; }
+blockquote									{ padding: 0 20px; margin-left: 20px; border-left: 20px solid #ccc; font-size: 14px; 
+									  		  font-family: Georgia, serif; font-style: italic; margin-top: 10px;}
+
+/*
+	SLIDER
+*/
+.slider-wrap								{ width: 540px; position: absolute;  }			
+
+.stripViewer/*VISOR FOTOS DEL MISMO TAMAÑO*/{ position: relative; margin-left:-7px; overflow: hidden; width: 547px; height: 400px; background-color:white; }
+.stripViewer .panelContainer				{ position: relative; left: 0; top: 0; }
+.stripViewer .panelContainer .panel/*PROYECTOR*/{ float: left; /*height: 100%;*/ position: relative; width: 600px; }
+.stripNavL, .stripNavR, .stripNav			{ display: none; }
+.nav-thumb 									{ border: 1px solid black; margin-right:5px;  }
+#movers-row									{ margin: -43px 0 0 90px; }
+#movers-row div								{  float: left;margin-top: -30px; }
+#movers-row div a.cross-link 				{ float: right;   }
+
+.photo-meta-data span 						{ font-size: 13px; }
+.cross-link									{ display: block; width: 90px; /**/margin-top: -8px; 
+											  position: relative; padding-top: 15px;/**/ z-index: 9999; }
+.active-thumb 								{ background: transparent url(../imagenesLogos/icon-uparrowsmallwhite.png) top center no-repeat; }
+
+
+
+
+
+

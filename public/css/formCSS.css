@@ -1,0 +1,154 @@
+#formWrap{
+	
+}
+#formWrap h2{
+	font-family: 'Mystery Quest', cursive;
+	font-weight:normal;
+	color: #390;
+	font-size:24px;
+	margin-bottom:7px;
+	width:250px;
+
+	
+}
+	
+#nombre_email{
+	width:230px;
+	float:left;}
+
+#form .row{/* Caja que contiene  nombre campo y texto para: Nombre email y textarea*/
+	display:block;
+	overflow:auto;
+	padding:0 0 10px 0;
+
+}
+
+#form .row .label{  /*Texto EMAIL NAME MESSAGE*/
+	font-size:20px;
+	font-family: 'Mystery Quest', cursive;
+	text-align:left;
+	padding:0px 0px 5px 0px;
+	color:#3c2d0d;
+}
+
+#form .row_table .label{  /*Texto MESSAGE*/
+	font-size:20px;
+	font-family: 'Mystery Quest', cursive;
+	text-align:left;
+	padding:0 0px 5px 0px;
+	color:#3c2d0d;
+	margin-left:5px;
+	float:left;
+}
+#form .row .input{/* Contenedor de laCaja de Formulario Nombre y email*/
+	float:left;
+	width:auto;
+	margin-right: 12px;
+	
+	
+}
+
+#form .labeltext .input2{/* Contenedor de laCaja  Text Area*/
+	
+	float:right;
+	width:auto;
+	margin-right: 12px;
+	
+	
+
+	
+}
+
+.detail{/* Texto dentro de Caja de Formulario Nombre y email*/
+	width:160px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:16px;
+	padding:5px 10px;
+	margin:0;
+	display:block;
+	border-radius:5px 5px 5px 5px;
+	background-color: #F1F1F1;
+	border:1px solid #CCC;
+	
+}
+
+.mess{/* Text area */
+	width:390px;
+	max-width:390px;
+	max-height:405px;
+	height:280px;
+	min-width:390px;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	padding:5px 10px;
+	line-height:1em;
+	margin:0px;
+	display:block;
+	border-radius:5px 5px 5px 5px;
+	background-color: #F1F1F1;
+	border:1px solid #CCC;
+	float:right;
+}
+
+.detail:focus{
+	background-color:#FFF;
+	border:1px solid #3c2d0d;
+	outline:none;
+}
+
+.mess:focus{
+	background-color:#FFF;
+	border:1px solid #3c2d0d;
+	outline:none;
+	padding:5px 10px;
+}
+
+#form .row .context{
+	padding:5px 0 0 0;
+	color:#999;
+	font-size:11px;
+	font-style:italic;
+	line-height:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:180px;
+	float:left;
+	 	
+}
+
+.submit{
+	font-family:Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size:12px;
+	float:left;
+	width:100px; 
+	height:25px;
+	margin-top:10px;
+	cursor:pointer;
+}
+
+span.error{
+	color: #C30;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-image:url(../imagenes/x.png);
+	background-repeat: no-repeat;
+	background-position: left 6px;
+	padding:5px 0 0 16px;
+	
+	
+	
+}
+span.error2{
+	color: #C30;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-image:url(../imagenes/x.png);
+	background-repeat: no-repeat;
+	background-position: left 6px;
+	padding:7px 0 0 16px;
+	margin-left:370px;
+}
+

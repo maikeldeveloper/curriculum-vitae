@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+      <title>{% block title %}{% endblock %}</title>
+      {% block metaname %}
+        <meta name="description" content="{{meta_description}}"/>
+      {% endblock %}
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="/public/js/magic_line.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/public/js/eyes.js" type="text/javascript"></script>
+
+
+      {% block extrascripts %}
+      {% endblock %}
+
+
+        <link rel="stylesheet" href="public/css/main.css">
+
+
+      {% block extracss %}
+      {% endblock %}
+
+
+  </head>
+  <body>
+
+
+    <div id="logo_container">
+        <a href="/"><div id="logo"></div></a>
+    </div>
+    <div id="menu">
+        <div class="nav-wrap">
+            <ul class="group" id="example-one">
+               <li class="current_page_item"><a href="index.php">Home</a></li>
+               <li><a href="developer">Web Developer</a></li>
+               <li><a href="desktop-publisher">DesktopPublisher</a></li>
+               <li><a href="labeling">Labeling</a></li>
+               <li><a href="logos">Logos</a></li>
+               <li><a href="advertisement">Advertisement</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="eye_container">
+        <div id="ojo_neurona_left">
+            <img src="public/imagenes/pupil.png" width="10" height="10" />
+        </div>
+        <div id="ojo_neurona_right">
+            <img src="public/imagenes/pupil.png" width="10" height="10" />
+        </div>
+        <script type="text/javascript">
+            EYES.follow ('ojo_neurona_left');
+            EYES.follow ('ojo_neurona_right');
+        </script>
+    </div>
+
+    {% block content %}{% endblock %}
+
+    <div id="footer">
+        <a href="contact.php" id="neurona_contacta"></a>
+    </div>
+
+
+  </body>
+</html>
